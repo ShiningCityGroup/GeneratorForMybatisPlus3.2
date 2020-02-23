@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shiningcity</groupId>
+  <artifactId>GeneratorForMybatisPlus</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	    <!-- mysql -->
+	    <dependency>
+	        <groupId>mysql</groupId>
+	        <artifactId>mysql-connector-java</artifactId>
+	        <version>5.1.38</version>
+	    </dependency>
+	    <!-- 该依赖可以下载spring-context、spring-aop、spring-beans、spring-core、spring-jcl、spring-ecpression -->
+	    <dependency>
+	        <groupId>org.springframework</groupId>
+	        <artifactId>spring-context</artifactId>
+	        <version>5.1.6.RELEASE</version>
+	    </dependency>
+	    <!-- oracle，需要自己复制jar包到maven本地仓库，mybatis的代码生成器中有 -->
+	    <dependency>
+	        <groupId>com.oracle</groupId>
+	        <artifactId>ojdbc14</artifactId>
+	        <version>10.2.0.1.0</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>com.baomidou</groupId>
+	        <artifactId>mybatis-plus</artifactId>
+	        <version>3.2.0</version>
+	    </dependency>
+	    <dependency>
+		    <groupId>com.baomidou</groupId>
+		    <artifactId>mybatis-plus-generator</artifactId>
+		    <version>3.2.0</version>
+		</dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-engine-core</artifactId>
+            <version>2.0</version>
+        </dependency>
+  </dependencies>
+  
+</project>
